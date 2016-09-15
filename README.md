@@ -2,7 +2,7 @@
 Projeto do semestre
 Tema: Trocas e vendas
 
-Público-alvo: Público geral
+Público-alvo: Pessoas interessadas em e-commerce.
 
 Objetivos do site: Facilitar as trocas entre os usuários do site.
 
