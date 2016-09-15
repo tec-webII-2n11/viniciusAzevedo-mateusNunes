@@ -1,18 +1,18 @@
 # viniciusAzevedo-mateusNunes
 Projeto do semestre
-Tema:
+Tema: Trocas e vendas
 
-Público-alvo:
+Público-alvo: Público geral
 
-Objetivos do site:
+Objetivos do site: Facilitar as trocas entre os usuários do site.
 
-Funcionalidades do site:
+Funcionalidades do site: Postar trocas, vendas e compras.
 
-Usuário Administrador:
+Usuário Administrador: Deverá monitorar os posts e os usuários.
 
-Usuário Logado:
+Usuário Logado: Pode realizar posts, editar os posts, comentar em outros posts e fazer anexos de imagens.
 
-Usuário Visitante:
+Usuário Visitante: Só vizualizar o site.
 
 Mapa de Navegação:
 
