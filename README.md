@@ -14,6 +14,7 @@ Usuário Logado: Pode realizar posts, editar os posts, comentar em outros posts 
 
 Usuário Visitante: Só vizualizar o site.
 
-Mapa de Navegação:
+Mapa de Navegação:[Mapa de navegação](navegacao.html)
 
-Wireframe:
+Wireframe: 
+    
