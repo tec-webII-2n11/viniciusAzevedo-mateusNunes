@@ -16,5 +16,4 @@ Usuário Visitante: Só vizualizar o site.
 
 Mapa de Navegação: [Mapa de navegação](navegacao.html)
 
-Wireframe: 
-    
+Wireframe: [Wireframe](wireframe.html)
