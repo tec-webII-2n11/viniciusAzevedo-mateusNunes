@@ -1,8 +1,14 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
  #menu-bar {
-              width: 100%;
+              width: 98%;
               margin: 0px 0px 0px 0px;
               padding: 5px 8px 6px 9px;
-              height: 41px;
+              height: 40px;
               line-height: 100%;
               border-radius: 0px;
               -webkit-border-radius: 0px;
@@ -15,14 +21,14 @@
               position:relative;
               z-index:999;
     }
-            #menu-bar li {
-              margin: 0px 0px 6px 0px;
-              padding: 2px 160px 0px 0px;
-              float: left;
-              position: relative;
-              list-style: none;
+  #menu-bar li {
+                margin: 0px 0px 6px 0px;
+                padding: 2px 160px 0px 0px;
+                float: left;
+                position: relative;
+                list-style: none;
     }
-            #menu-bar a {
+  #menu-bar a {
               font-weight: bold;
               font-family: arial;
               font-style: normal;
@@ -37,9 +43,10 @@
               -webkit-border-radius: 0px;
               -moz-border-radius: 0px;
               text-shadow: 2px 2px 3px #000000;
+              margin-left: 10px
             }
         
-            #menu-bar .active a, #menu-bar li:hover > a {
+#menu-bar .active a, #menu-bar li:hover > a {
               background: #0399D4;
               background: linear-gradient(top,  #EBEBEB,  #A1A1A1);
               background: -ms-linear-gradient(top,  #EBEBEB,  #A1A1A1);
@@ -51,3 +58,144 @@
               box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
               text-shadow: 0px 2px 25px #FFFFFF;
             }
+            
+ #banner{
+              
+              width: 100%;
+              height: 100px;
+              
+             
+            }
+            
+body{
+              background-color: silver;
+            }
+aside{
+              background-color: black;
+              width:200px;
+              height:570px;
+              color: white;
+              box-shadow: 2px 2px 3px #666666;
+              -webkit-box-shadow: 2px 2px 3px #666666;
+              -moz-box-shadow: 2px 2px 3px #666666;
+              line-height: 100%;
+              border: groove 2px #6D6D6D;
+              positon:relative;
+              margin-top:20px;
+        
+            }
+ 
+ #asideesquerda {
+  float: left;
+  margin-top: 20px;  
+}
+
+
+aside h4{
+              color:red;
+              padding-left:100px;
+            }
+aside p{
+             color:silver;
+             margin-bottom:450px;
+             
+           }
+html, body {height:100%;}
+
+
+.geral {
+	position:relative;
+	min-height:100%;
+	
+}
+
+footer{
+    position: absolute;
+    box-shadow: 2px 2px 3px #666666;
+             -webkit-box-shadow: 2px 2px 3px #666666;
+             -moz-box-shadow: 2px 2px 3px #666666;
+    line-height: 100%;
+    border: groove 2px #6D6D6D;
+    width:99%;
+	height: 30px;
+	background-color: black;
+	bottom:0;
+	clear:both;
+	margin-left:5px;
+	
+} 
+
+footer p{
+    
+    clear: both;
+    color:white;
+    text-align: center;
+    margin-top:5px;
+}
+
+
+.conteudo{
+    box-shadow: 2px 2px 3px #666666;
+             -webkit-box-shadow: 2px 2px 3px #666666;
+             -moz-box-shadow: 2px 2px 3px #666666;
+    border: groove 2px #6D6D6D;
+    margin-top:20px;
+    margin-left:20px;
+    margin-bottom: 10px;
+    background-color:gray;
+    clear:both;
+    width:85%;
+    height:670px;
+    clear:both;
+    display: inline-block; 
+}
+
+.conteudo h2,p {
+    text-align: center;
+}
+
+.conteudo p{
+    margin-top:30px;
+    
+}
+
+.formulario{
+    background-color:silver;
+    border: 1px solid;
+    border-radius: 25px;
+    width:300px;
+    margin-left:550px;
+    margin-top:50px;
+}
+
+.cadastro{
+    font-weight: bold;
+    font-family: arial;
+    font-style: normal;
+    margin-top:10px;
+    
+}
+
+#post{
+    background-color:silver;
+    border: 1px solid black;
+    border-radius:25px;
+    width:300px;
+    height:100%;
+    margin-left:40%;
+    position:relative;
+    bottom:-550px;
+    text-align: center;
+    font-weight: bold;
+    font-family: arial;
+    font-style: normal;
+    margin-top:10px;
+    
+}
+
+#feed{
+    font-weight: bold;
+    font-family: arial;
+    font-style: normal;
+    margin-top:10px;
+}
