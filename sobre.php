@@ -18,19 +18,19 @@
            
             <main>
                 
-                    <h2 id="front">Bem vindo ao MackTrade!</h2>
-                    <p class="inicio">Seja bem vindo ao MackTrade, o site de comércio dos alunos do Mackenzie.</p>
-                    <br>
-                    <p class="inicio">O nosso site visa facilitar as transações entre os nossos usuários.</p>
-                    <br>
-                    <p class="inicio">Mas caso você encontre algum usuário infringindo alguma regra, não tenha medo de reporta-lo.</p>
-                    <br>
-                    <p class="inicio">Portanto seja muito bem vindo. 
+                    <h2 id="feed">Sobre o site: </h2>
+                    
+                    <p id="sobre"> Este site foi desenvolvido por dois alunos da Universidade Presbiteriana Mackenzie, com o objetivo de facilitar o relacionamento dos alunos da universidade, em trocar e vender produtos.</p>
+                    
+                    
+                    
+                  
                     
             </main>
              
             
         </div>
+        
         <?php
           include 'Includes/footer.php';
          ?> 

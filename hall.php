@@ -18,19 +18,19 @@
            
             <main>
                 
-                    <h2 id="front">Bem vindo ao MackTrade!</h2>
-                    <p class="inicio">Seja bem vindo ao MackTrade, o site de comércio dos alunos do Mackenzie.</p>
-                    <br>
-                    <p class="inicio">O nosso site visa facilitar as transações entre os nossos usuários.</p>
-                    <br>
-                    <p class="inicio">Mas caso você encontre algum usuário infringindo alguma regra, não tenha medo de reporta-lo.</p>
-                    <br>
-                    <p class="inicio">Portanto seja muito bem vindo. 
+                    <h2 id="feed">HALL DA FAMA</h2>
+                    
+                    <p id="sobre"> Abaixo estão os usuários mais ativos do website.</p>
+                    
+                    
+                    
+                  
                     
             </main>
              
             
         </div>
+        
         <?php
           include 'Includes/footer.php';
          ?> 

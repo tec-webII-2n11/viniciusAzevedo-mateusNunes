@@ -19,13 +19,13 @@
                <h2 class="cadastro">Página de Cadastro</h2>
                <form method="POST" action="cad2.php" class="formulario">
                    <p><label for="nome" >Nome Completo: </label>
-                   <input type="text" name="nome" id="nome"></p>
+                   <input type="text" name="nome" id="nome" required="nome"></p>
                    
                     <p><label for="cpf">CPF: </label>
-                    <input type="text" name="cpf" id="cpf"></p>
+                    <input type="text" name="cpf" id="cpf" required="cpf"></p>
                     
                     <p><label for="email">E-mail: </label>
-                    <input type="email" name="email" id="email"></p>
+                    <input type="email" name="email" id="email" required"email"></p>
                     
                     <p><label for="sexo">Selecione o seu sexo: </label>
                     <select name="sexo">
@@ -44,9 +44,7 @@
            </main>
             
         </div>
-        <?php
-         include 'Includes/asides.php';
-        ?>
+       
         <?php
           include 'Includes/footer.php';
          ?> 

@@ -31,9 +31,7 @@
            </main>
             
         </div>
-        <?php
-         include 'Includes/asides.php';
-        ?>
+        
         <?php
           include 'Includes/footer.php';
          ?> 
