@@ -85,21 +85,7 @@ aside{
         
             }
  
- #asideesquerda {
-  float: left;
-  margin-top: 20px;  
-}
 
-
-aside h4{
-              color:red;
-              padding-left:100px;
-            }
-aside p{
-             color:silver;
-             margin-bottom:450px;
-             
-           }
 html, body {height:100%;}
 
 
@@ -111,7 +97,7 @@ html, body {height:100%;}
 }
 
 footer{
-    position: absolute;
+    position: relative;
     box-shadow: 2px 2px 3px #666666;
              -webkit-box-shadow: 2px 2px 3px #666666;
              -moz-box-shadow: 2px 2px 3px #666666;
@@ -144,10 +130,9 @@ footer p{
     margin-left:20px;
     margin-bottom: 10px;
     background-color:gray;
-    clear:both;
     width:85%;
     height:670px;
-    clear:both;
+    
     display: inline-block; 
     margin-left: 100px;
 }
