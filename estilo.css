@@ -151,9 +151,10 @@ footer p{
     background-color:silver;
     border: 1px solid;
     border-radius: 25px;
-    width:300px;
+    width:500px;
     margin-left:550px;
     margin-top:50px;
+    margin-left:100px;
 }
   
 
@@ -163,6 +164,7 @@ footer p{
     font-style: normal;
     margin-top:10px;
     margin-right: 30px;
+    
     
 }
 
@@ -209,6 +211,11 @@ footer p{
 #front{
     font-family: cursive;
     color: white;
+}
+
+label{
+    display:inline-block;
+    width:150px;
 }
     
     

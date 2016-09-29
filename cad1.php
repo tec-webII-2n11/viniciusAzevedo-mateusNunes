@@ -17,7 +17,7 @@
         <div class = "conteudo">
            <main>
                <h2 class="cadastro">Página de Cadastro</h2>
-               <form method="POST" action="cad2.php" class="formulario">
+               <form method="POST" action="#" class="formulario">
                    <p><label for="nome" >Nome Completo: </label>
                    <input type="text" name="nome" id="nome" required="nome"></p>
                    
@@ -38,7 +38,13 @@
                     <p><label for="dataNasc">Data de Nascimento</label>
                     <input type="date" name="dataNasc" id="dataNasc"></p>
                     
-                    <p><input type="submit" value="Continuar >>" name="enviar"></p>
+                    <p><label for="login">Login </label>
+                    <input type="login" name="login" id="login"></p>
+                    
+                    <p><label for="senha">Senha: </label>
+                    <input type="senha" name="senha" id="senha" /> </p>
+                    
+                    <p><input type="submit" value="Cadastrar" name="enviar"></p>
                </form>
                
            </main>
