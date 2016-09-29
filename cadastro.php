@@ -16,35 +16,26 @@
         </nav>
         <div class = "conteudo">
            <main>
-               <h2 class="cadastro">Página de Cadastro</h2>
-               <form method="POST" action="#" class="formulario">
+               <h2 class="cadastro">Cadastro 1 de 2</h2>
+               <form method="POST" action="cad2.php" class="formulario">
                    <p><label for="nome" >Nome Completo: </label>
-                   <input type="text" name="nome" id="nome" required="nome"></p>
+                   <input type="text" name="nome" id="nome" ></p>
                    
                     <p><label for="cpf">CPF: </label>
-                    <input type="text" name="cpf" id="cpf" required="cpf"></p>
+                    <input type="text" name="cpf" id="cpf" ></p>
                     
                     <p><label for="email">E-mail: </label>
-                    <input type="email" name="email" id="email" required"email"></p>
+                    <input type="email" name="email" id="email"></p>
                     
                     <p><label for="sexo">Selecione o seu sexo: </label>
-                    <select name="sexo">
-                        <option>Selecione o seu sexo</option>
-                        <option>Masculino</option>
-                        <option>Feminino</option>
-                        <option>Outros</option>
-                    </select></p>
-                    
+                    <input type="radio" name="sexo" id="sexo" value="Masculino">Masculino
+                    <input type="radio" name="sexo" id="sexo" value="Feminino">Feminino
+                    <input type="radio" name="sexo" id="sexo" value="Outros">Outros</p>
+                     
                     <p><label for="dataNasc">Data de Nascimento</label>
                     <input type="date" name="dataNasc" id="dataNasc"></p>
                     
-                    <p><label for="login">Login </label>
-                    <input type="login" name="login" id="login"></p>
-                    
-                    <p><label for="senha">Senha: </label>
-                    <input type="senha" name="senha" id="senha" /> </p>
-                    
-                    <p><input type="submit" value="Cadastrar" name="enviar"></p>
+                    <p><input type="submit" value="Próximo >>" name="enviar"></p>
                </form>
                
            </main>

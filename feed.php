@@ -27,9 +27,9 @@
                         <h3>Espaço para postar</h3>
                         <form>
                             <input type="textarea" name="postar"/>
-                        <input type="submit" value="Enviar Imagem" name="enviarImg">
-                        <input type="submit" value="Enviar texto" name="enviarTxt">
-                        </form>
+                            <input type="submit" value="Enviar Imagem" name="enviarImg">
+                            <input type="submit" value="Enviar texto" name="enviarTxt">
+                            </form>
                     </div>
                     
             </main>
