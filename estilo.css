@@ -219,3 +219,15 @@ label{
 }
     
     
+.links{
+    text-decoration:none;
+    color:black;
+    text-shadow: 2px 2px 3px #000000;
+     margin-left: 10px
+}
+
+#include{
+    text-decoration:none;
+    color:black;
+    text-shadow: 2px 2px 3px #000000;
+}

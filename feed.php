@@ -9,6 +9,7 @@
     <div class="geral">
         <nav>
             <?php
+                include 'Includes/logado.php';
                 include 'Includes/banner.php';
                 include 'Includes/menu.php';
                 
@@ -24,14 +25,34 @@
                     
                     
                     <div id="post">
-                        <h3>Espaço para postar</h3>
-                        <form>
-                            <input type="textarea" name="postar"/>
-                            <input type="submit" value="Enviar Imagem" name="enviarImg">
-                            <input type="submit" value="Enviar texto" name="enviarTxt">
-                            </form>
-                    </div>
+                       
+                        
                     
+
+  <form method="post" action="comentario.php">
+
+   <table>
+
+
+    <tr>
+
+     <td>Comentario: </td><td><textarea  name="mensagem"  rows=5 cols=35/></textarea></td>
+
+    </tr>
+
+    <tr>
+
+     <td></td><td><input  type=submit  value=Comentar></td>
+
+    </tr>
+
+  </form>
+
+ </body>
+
+</html>
+                        
+
             </main>
              
             

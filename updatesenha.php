@@ -17,16 +17,16 @@
         <div class = "conteudo">
            <main>
                <h2 class="cadastro">Página de Login</h2>
-               <form method="POST" action="validar.php" class="formulario">
+               <form method="POST" action="validarsenha.php" class="formulario">
                    <p><label for="login">Login: </label>
                    <input type="text" name="login" id="login"></p>
                    
-                   <p><label for="senha">Senha: </label>
+                   <p><label for="senha">Nova senha: </label>
                    <input type="password" name="senha" id="senha"></p>
                    
-                   <p><input type="submit" value="Fazer Login" name="enviar" /></p>
+                   <p><input type="submit" value="Mudar senha" name="enviar" /></p>
                    
-                   <a class="links" href="updatesenha.php">Alterar Senha</a>
+                   
                    
                </form>
                

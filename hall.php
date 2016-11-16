@@ -11,7 +11,7 @@
             <?php
                 include 'Includes/banner.php';
                 include 'Includes/menu.php';
-                
+                include 'Includes/logado.php';
             ?>
         </nav>
         <div class = "conteudo">

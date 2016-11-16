@@ -20,7 +20,7 @@
                 
                     <h2 id="feed">Sobre o site: </h2>
                     
-                    <p id="sobre"> Este site foi desenvolvido por dois alunos da Universidade Presbiteriana Mackenzie, com o objetivo de facilitar o relacionamento dos alunos da universidade, em trocar e vender produtos.</p>
+                    <p id="sobre"> Este site foi desenvolvido pelos alunos Mateus Nunes e Vinicius Azevedo, da Universidade Presbiteriana Mackenzie, com o objetivo de facilitar o relacionamento dos alunos da universidade, em trocar e vender produtos.</p>
                     
                     
                     

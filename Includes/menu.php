@@ -8,7 +8,8 @@
                  <li><a href="login.php">Login</a></li>
                  <li><a href="hall.php">Hall da Fama</a></li>
                  <li><a href="sobre.php">Sobre o site</a></li>
-                 <li><a href="#">Sair</a></li>
+                 <li><a href="logout.php">Sair</a></li>
+                 
                 </ul>
         </nav>
 </header>
